@@ -1,0 +1,31 @@
+.navbarList{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo{
+    width: 30%;
+}
+
+.logoBox{
+    margin-right: 20em;
+}
+
+.navbarList li{
+    padding: 0.6em;
+}
+
+.navbarList li a{
+    color: #0290a2;
+    font-size: 1.3em;
+}
+
+.navbarList li a:hover{
+    color: #BAD9C8;
+    transition: 0.5s;
+}
+
+#socialMedia{
+    width: 1.8em;
+}
