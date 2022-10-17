@@ -56,7 +56,7 @@
     display: flex;
     justify-content: space-around;
 
-    height: 100vh;
+    height: 90vh;
 }
 
 .skills_desc{
@@ -137,4 +137,63 @@
     font-size: 1.1em;
 
     margin-bottom: 2em;
+}
+
+/* About */
+
+.about_me{
+    width: 100%;
+    height: 100vh;
+
+    padding: 3em;
+    margin-top: 2em;
+}
+
+.about_image{
+    width: 97px;
+    height: 95px;
+
+    margin-right: 1em;
+}
+
+.about_image img{
+    width: 100%;
+}
+
+.about_me_desc{
+    width: 600px;
+    height: auto;
+
+    margin-top: 2em;
+}
+
+.email{
+    display: flex;
+}
+
+.email button{
+    height: 68px;
+
+    background: #f4f4f4;
+
+    border-radius: 45px;
+    border: none;
+
+    margin: 1em;
+    padding: 15px 30px;
+}
+
+.email button:hover{
+    background: #DFDFDF;
+    transition: 0.4s;
+}
+
+.email_copied{
+    height: 40px;
+
+    background-color: #0290a2;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #BAD9C8;
 }
