@@ -1,0 +1,25 @@
+.navbarList{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo{
+    width: 30%;
+}
+
+#socialMedia{
+    width: 1.8em;
+}
+
+.navbarList li{
+    padding: 0.6em;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}

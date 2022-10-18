@@ -1,7 +1,7 @@
 .navbarList{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #logo{
@@ -27,5 +27,5 @@
 }
 
 #socialMedia{
-    width: 1.8em;
+    width: 1.5em;
 }

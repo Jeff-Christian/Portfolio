@@ -11,36 +11,36 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-    <nav className="navbar container">
-      <div className="container-fluid">
+    <nav className="container">
         <ul className={styles.navbarList}>
           <li className={styles.logoBox}>
-            <Link className="navbar-brand" href="/home">
+            <Link className="navbar-brand" to="/">
               <img id={styles.logo} className="img-fluid" src={logo} alt="Jéfferson Christian Logo" />
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link>.Sobre</Link>
           </li>
           <li>
             <Link>.Contato</Link>
-          </li>
-          <li>
-            <Link>.Projetos</Link>
-          </li>
+          </li> */}
+          <div className="display">
+            <li>
+              <Link to="/projetos">.Projetos</Link>
+            </li>
 
-          <li>
-            <a href="https://github.com/Jeff-Christian" target="blank">
-            <img id={styles.socialMedia} src={github} alt="Página pessoal do Github" />
-            </a>
+            <li>
+              <a href="https://github.com/Jeff-Christian" target="blank">
+              <img id={styles.socialMedia} src={github} alt="Página pessoal do Github" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jeffersonchristians/" target="blank">
+              <img id={styles.socialMedia} src={linkedin} alt="Página pessoal do Linkedin" />
+              </a>
           </li>
-          <li>
-            <a href="https://www.linkedin.com/in/jeffersonchristians/" target="blank">
-            <img id={styles.socialMedia} src={linkedin} alt="Página pessoal do Linkedin" />
-            </a>
-          </li>
+          </div>
         </ul>
-      </div>
     </nav>
     </>
   )
