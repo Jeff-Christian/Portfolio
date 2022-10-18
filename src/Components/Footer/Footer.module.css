@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer a:hover{
+    color: #bad9c8;
+}
+
+.social_media{
+    display: flex;
+
+    padding: 2em;
+}
+
+.social_media a{
+    display: flex;
+    align-items: center;
+}
+
+.social_media a:hover{
+    color: #bad9c8;
+}
+
+.social_media a img{
+    width: 20%;
+
+    margin-right: 1em;
+}
+
+.social_media a p{
+    margin: 0;
+
+    font-size: 1.1em;
+    font-weight: 500;
+}
