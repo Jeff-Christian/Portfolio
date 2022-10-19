@@ -1,0 +1,16 @@
+.work_container{
+    width: 100%;
+    height: 100vh;
+}
+
+.title h3{
+    margin-bottom: 2em;
+}
+
+.project_apresentation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    margin-bottom: 2em;
+}

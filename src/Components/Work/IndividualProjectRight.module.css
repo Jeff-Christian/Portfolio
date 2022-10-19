@@ -1,0 +1,61 @@
+.projectRight{
+    width: 379px;
+    height: 283px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #F2EFEA;
+    border-radius: 12px;
+    margin-bottom: 2em;
+
+    position: relative;
+
+}
+
+.project_Bottom{
+    width: 380px;
+    height: 63px;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    background: #1F1F1F;
+
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.project_name{
+    margin: 10px;
+}
+
+.project_name p{
+    margin: 0;
+
+    font-size: 1.6em;
+
+    color: #F2EFEA;
+}
+
+.project_name p:first-child{
+    font-size: 0.7em;
+
+    color: #A4A4A4;
+}
+
+.view button{
+    width: 48px;
+    height: 24px;
+
+    margin: 20px;
+
+    background: #fff;
+    color: #1F1F1F;
+
+    border-radius: 13px;
+}

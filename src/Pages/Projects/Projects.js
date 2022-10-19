@@ -8,6 +8,7 @@ import github from "../../images/github.svg";
 
 // routes
 import { Link } from "react-router-dom";
+import Works from "../../Components/Work/Works";
 
 const Projects = () => {
   return (
@@ -34,10 +35,39 @@ const Projects = () => {
         </ul>
     </nav>
 
-    <div className={styles.flex}>
-      Página com os projetos em construção.
-    </div>
+    <div className="container">
+      <div className={styles.principal_container}>
 
+        <div className={styles.principal_text}>
+          <span>Categoria</span>
+          <h3>
+            Projeto feito <br></br>
+            para <br></br>
+            tal
+          </h3>
+          <p>
+            - local, or something
+          </p>
+        </div>
+
+        <div className={styles.principal_project}>
+          <div className={styles.principal_project_content}>
+            <div className={styles.principal_project_bottom}>
+            <div className={styles.project_name}> 
+              <p>Date</p>
+              <p>Name of project</p>
+              </div>
+              <div className={styles.view}>
+                <button>Ver</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <Works></Works>
     </>
   )
 }
