@@ -15,7 +15,7 @@ const Header = () => {
         <ul className={styles.navbarList}>
           <li className={styles.logoBox}>
             <Link className="navbar-brand" to="/">
-              <img id={styles.logo} className="img-fluid" src={logo} alt="Jéfferson Christian Logo" />
+              <img id={styles.logo} src={logo} alt="Jéfferson Christian Logo" />
             </Link>
           </li>
           {/* <li>
@@ -26,10 +26,6 @@ const Header = () => {
           </li> */}
           <div className="display">
             <li>
-              <Link to="/projetos">.Projetos</Link>
-            </li>
-
-            <li>
               <a href="https://github.com/Jeff-Christian" target="blank">
               <img id={styles.socialMedia} src={github} alt="Página pessoal do Github" />
               </a>
@@ -38,7 +34,10 @@ const Header = () => {
               <a href="https://www.linkedin.com/in/jeffersonchristians/" target="blank">
               <img id={styles.socialMedia} src={linkedin} alt="Página pessoal do Linkedin" />
               </a>
-          </li>
+            </li>
+            <li className={styles.project_access}>
+              <Link to="/projetos">.Projetos</Link>
+            </li>
           </div>
         </ul>
     </nav>

@@ -108,6 +108,8 @@
     display: flex;
     justify-content: space-between;
     padding: 1em;
+
+    margin-bottom: 1em;
 }
 
 .skills_design img{
@@ -198,4 +200,193 @@
     border-radius: 20px;
     font-size: 15px;
     color: #BAD9C8;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+
+    .text a {
+        padding: 5px 30px;
+    }
+
+    .subtitle{
+        font-size: 0.8em;
+    }
+
+    .skills_desc button{
+        width: 180px;
+        padding: 10px;
+    }
+
+    .skills_dev, .skills_design{
+        width: 15em;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .introduction{
+        gap: 1em;
+    }
+
+    .skills_container{
+        flex-direction: column;
+    }
+
+    .skills h3{
+        margin-bottom: 1em;
+    }
+
+    .skills_dev{
+        margin-left: 2em;
+    }
+
+    .skills_dev img{
+        width: 10%;
+    }
+
+    .skills_design{
+        margin-left: 2em;
+    }
+
+    .skills_design img{
+        width: 10%;
+    }
+
+    .iDo{
+        margin-top: 1em;
+        padding: 1em;
+    }
+
+    .title{
+        font-size: 0.8em;
+    }
+
+    .subtitle{
+        font-size: 0.5em;
+    }
+
+    .skills_desc button{
+        width: auto;
+        height: 35px;
+    }
+
+    .text{
+        width: 50%;
+    }
+
+    .text p {
+        font-size: 0.6em;
+    }
+
+    .text a{
+        margin: 0;
+    }
+
+    .text a button{
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .about_me_desc{
+        width: 100%;
+    }
+
+    .about_me_desc p{
+        font-size: 0.6em;
+    }
+
+    .email{
+        flex-direction: column;
+    }
+
+    .email button{
+        margin: 0;
+        font-size: 0.8em;
+        padding: 1em;
+        height: auto;
+    }
+    
+    .email_copied{
+        width: 50px;
+        height: 20px;
+        font-size: 0.4em;
+        margin-bottom: 5px;
+    }
+
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .skills h3{
+        margin-bottom: 20px;
+    }
+
+    .skills_design{
+        margin-bottom: 0;
+    }
+
+    .email{
+        flex-direction: column;
+    }
+
+    .email_copied{
+        width: 50px;
+        height: 20px;
+        font-size: 0.4em;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .text a {
+        padding: 0px;
+    }
+
+    .text a button{
+        font-size: 0.5em;
+        padding-bottom: 10px;
+    }
+
+    .skills h3{
+        font-size: 0.6em;
+        margin-bottom: 10px;
+    }
+
+    .skills_desc button{
+        font-size: 0.6em;
+
+        height: 30px;
+    }
+
+    .skills_dev{
+        padding: 10px;
+    }
+
+    .skills_design{
+        padding: 10px;
+    }
+
+    .email_copied{
+        width: 50px;
+        height: 20px;
+        font-size: 0.4em;
+        margin-bottom: 5px;
+    }
+
+    .email{
+        flex-direction: column;
+    }
+
+    .email button{
+        width: 100%;
+        font-size: 0.5em;
+    }
+
 }

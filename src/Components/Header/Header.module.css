@@ -17,15 +17,83 @@
 }
 
 .navbarList li a{
-    color: #0290a2;
+    color: #000;
     font-size: 1.3em;
 }
 
 .navbarList li a:hover{
-    color: #BAD9C8;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.project_access{
+    width: 115px;
+    height: 50px;
+
+    background: #01a2bc;
+    text-align: center;
+
+    border-radius: 12px;
+    margin-left: 1em;
+}
+
+.project_access:hover{
+    background: #02c4d8;
     transition: 0.5s;
+
+    border: 1px solid #01a2bc;
 }
 
 #socialMedia{
     width: 1.5em;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+
+    #logo{
+        width: 40%;
+    }
+
+    #socialMedia{
+        width: 1.4em;
+    }
+
+    .navbarList{
+        margin-top: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .logoBox{
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    #socialMedia{
+        width: 1em;
+    }
+
+    .project_access{
+       width: 7em;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .project_access{
+       width: 5em;
+    }
+
+    .navbarList li a{
+        font-size: 0.8em;
+    }
+
 }

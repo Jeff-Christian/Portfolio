@@ -35,3 +35,26 @@
     font-size: 1.1em;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 425px) {
+
+    .social_media{
+        flex-direction: column;
+
+        padding: 1em;
+    }
+
+    .social_media a img{
+        width: 10%;
+    }
+
+    .social_media a p{
+        font-size: 0.5em;
+    }
+
+    .footer p{
+        font-size: 0.5em;
+    }
+    
+
+}
