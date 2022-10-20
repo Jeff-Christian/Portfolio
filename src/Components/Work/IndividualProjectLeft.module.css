@@ -93,6 +93,13 @@
 
 }
 
+@media only screen and (max-width: 425px) {
+    .projectLeft{
+        width: 90%;
+    }
+
+}
+
 @media only screen and (max-width: 375px) {
 
     .projectLeft{
