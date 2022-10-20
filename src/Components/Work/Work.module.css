@@ -14,3 +14,21 @@
     
     margin-bottom: 2em;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+
+    .project_apresentation{
+        gap: 1em;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .project_apresentation{
+        flex-direction: column;
+    }
+
+}

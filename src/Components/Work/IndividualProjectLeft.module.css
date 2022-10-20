@@ -78,3 +78,25 @@
 
     border-radius: 13px;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+
+    .project_image{
+        width: 100%;
+    }
+
+    .project_Bottom{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .projectLeft{
+        width: 90%;
+    }
+
+}

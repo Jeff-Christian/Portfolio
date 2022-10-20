@@ -8,7 +8,7 @@ const IndividualProjectRight = () => {
         <div className={styles.project_Bottom}>
           <div className={styles.project_name}> 
             <p>Date</p>
-            <p>Name of project</p>
+            <p>Name</p>
           </div>
           <div className={styles.view}>
             <button>Ver</button>
