@@ -5,6 +5,7 @@ import styles from "./Project.module.css";
 import logo from "../../images/logo.svg";
 import linkedin from "../../images/linkedin.svg";
 import github from "../../images/github.svg";
+import owl from "../../images/owlBlogThumbnail.svg";
 
 // routes
 import { Link } from "react-router-dom";
@@ -39,29 +40,36 @@ const Projects = () => {
       <div className={styles.principal_container}>
 
         <div className={styles.principal_text}>
-          <span>Categoria</span>
+          <span>Rede Social</span>
           <h3>
-            Projeto feito <br></br>
-            para <br></br>
-            tal
+            Owl, Blog <br></br>
+            Projeto para postar  <br></br>
           </h3>
           <p>
-            - local, or something
+            - Inspiração: Facebook & Twitter
           </p>
         </div>
 
         <div className={styles.principal_project}>
+
           <div className={styles.principal_project_content}>
+
+            <div className={styles.project_image}>
+              <img src={owl} alt="Owl Blog, rede social" />
+            </div>
             <div className={styles.principal_project_bottom}>
-            <div className={styles.project_name}> 
-              <p>Date</p>
-              <p>Name of project</p>
+              <div className={styles.project_name}> 
+                <p>Setembro, 2022</p>
+                <p>Owl BLog</p>
               </div>
               <div className={styles.view}>
                 <button>Ver</button>
-              </div>
             </div>
+
+            </div>
+
           </div>
+
         </div>
 
       </div>

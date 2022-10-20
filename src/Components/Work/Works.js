@@ -15,14 +15,20 @@ const Works = () => {
         </div>
         <div className={styles.project_apresentation}>
             <IndividualProjectLeft
-            date="19, October"
-            title="Owl Blog"
-            imageSource={require("../../images/profile.png")}
+            date="Outubro, 2022, "
+            title="BrotasGram"
+            imageSource={require("../../images/brotasGram-thumbnail.png")}
             ></IndividualProjectLeft>
+
             <IndividualProjectRight></IndividualProjectRight>
         </div>
         <div className={styles.project_apresentation}>
-            <IndividualProjectLeft></IndividualProjectLeft>
+            <IndividualProjectLeft
+              date="Agosto, 2022, "
+              title="Sun Developers"
+              imageSource={require("../../images/sunPirates-thumbnail.png")}
+            ></IndividualProjectLeft>
+            
             <IndividualProjectRight></IndividualProjectRight>
         </div>
     </div>

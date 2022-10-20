@@ -14,6 +14,10 @@
 
 }
 
+.projectRight p{
+    color: #ce3939;
+}
+
 .project_Bottom{
     width: 380px;
     height: 63px;
@@ -39,7 +43,7 @@
 
     font-size: 1.6em;
 
-    color: #F2EFEA;
+    color: #ce3939;
 }
 
 .project_name p:first-child{
