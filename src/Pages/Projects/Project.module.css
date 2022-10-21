@@ -138,6 +138,15 @@
     border-radius: 13px;
 }
 
+.view button:hover{
+    background: #2b3336;
+    transition: 0.4s;
+}
+
+.view a{
+    color: #FFFFFF;
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
 

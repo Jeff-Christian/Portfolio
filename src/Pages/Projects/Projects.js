@@ -7,9 +7,11 @@ import linkedin from "../../images/linkedin.svg";
 import github from "../../images/github.svg";
 import owl from "../../images/owlBlogThumbnail.svg";
 
+// Components
+import Works from "../../Components/Work/Works";
+
 // routes
 import { Link } from "react-router-dom";
-import Works from "../../Components/Work/Works";
 
 const Projects = () => {
   return (
@@ -63,9 +65,8 @@ const Projects = () => {
                 <p>Owl BLog</p>
               </div>
               <div className={styles.view}>
-                <button>Ver</button>
-            </div>
-
+                <button><Link to="/owlBlog">Ver</Link></button>
+              </div>
             </div>
 
           </div>
