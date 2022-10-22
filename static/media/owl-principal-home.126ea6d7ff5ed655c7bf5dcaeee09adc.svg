@@ -2,12 +2,12 @@
 <g id="figure">
 <rect width="1280" height="640" fill="#303030"/>
 <g id="Frame 1" clip-path="url(#clip0_74_3)">
-<rect id="owl-home 1" x="-34" y="39" width="1316.34" height="601" fill="url(#pattern0)"/>
+<rect id="owl-home 1" x="-34" y="39" width="1340.71" height="605" fill="url(#pattern0)"/>
 </g>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_74_3" transform="scale(0.000742391 0.00162602)"/>
+<use xlink:href="#image0_74_3" transform="scale(0.00074239 0.00164518)"/>
 </pattern>
 <clipPath id="clip0_74_3">
 <rect width="920" height="601" fill="white" transform="translate(180 39)"/>
